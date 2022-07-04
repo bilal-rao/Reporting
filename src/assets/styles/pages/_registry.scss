@@ -1,0 +1,32 @@
+.reportsRadio {
+  width: 100%;
+
+  .ant-radio-button-wrapper {
+    padding: 0;
+    height: auto;
+    border: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ant-radio-button-wrapper-checked {
+    .ant-card-body {
+      color: #3f6bf1;
+    }
+
+    .anticon {
+      svg {
+        * {
+          fill: #0077b6;
+        }
+      }
+    }
+  }
+
+  .anticon {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

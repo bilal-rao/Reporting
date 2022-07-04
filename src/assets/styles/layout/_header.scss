@@ -1,0 +1,54 @@
+.c-header {
+    background-color: White;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    .ant-card-body {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+.custom-select {
+    .ant-select-selection-placeholder {
+        color: #fff;
+    }
+    .ant-select-selection-item {
+        color: #fff;
+    }
+    &.ant-select-open {
+        .ant-select-selection-item {
+            color: #fff;
+        }
+    }
+}
+
+.ant-select-arrow {
+    color: #fff;
+}
+
+.search-input {
+    background-color: $container-color;
+    padding: 0px !important;
+    border: none;
+    .ant-select-selection-placeholder {
+        color: $gray;
+    }
+    .ant-input {
+        background-color: $container-color;
+    }
+    .ant-input-prefix {
+        margin-right: 10px;
+    }
+
+}
+.user-image {
+    background: #F6CA65;
+}
+
+.user-text {
+    font-size: '17px';
+    font-weight: 400;
+    color: cornflowerblue;
+}

@@ -1,0 +1,21 @@
+.logo {
+  width: 80%;
+}
+
+.site-collapse-custom-collapse {
+  background: #fff;
+}
+
+.collapse-panel {
+  background: $panel-bgcolor;
+  border-radius: 10px !important;
+  border-bottom: 0px !important;
+  margin-bottom: 10px;
+}
+
+.graph-panel {
+  width: 90%;
+  height: 49px;
+  background: $panel-bgcolor;
+  border-radius: 10px;
+}
